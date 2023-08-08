@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header {
+    background-color: blueviolet;
+    padding: 12px 0;
+    color: aliceblue;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 170px;
+    width: 200px;*/
+    width: 100%;
+    border-radius: 20px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2, .articles article { 
+    margin-bottom: 30px;
+}
+
+section h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: x-large;
+}
+
+section h2 {
+    font-size: xx-large;
+}
+
+#eSports {
+    background-color: rgba(74, 110, 227, 0.429);
+}
+
+#Novidades {
+    background-color: rgba(238, 107, 194, 0.365);
+}
+
+#Reviews {
+    background-color: rgba(245, 78, 78, 0.483);
+}
+
+#Recomendações {
+    background-color: rgba(232, 204, 45, 0.486);
+}
